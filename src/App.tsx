@@ -36,6 +36,7 @@ export function App() {
   );
   const [opportunities, setOpportunities] = useState<Opportunity[]>(REALISTIC_OPPORTUNITIES);
   const [isNairaOpen, setIsNairaOpen] = useState<boolean>(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState<boolean>(false);
 
   // When current profile changes, sync skills, gaps and roadmap
   useEffect(() => {
