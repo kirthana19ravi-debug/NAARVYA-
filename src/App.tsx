@@ -71,6 +71,7 @@ export function App() {
         currentProfile={currentProfile}
         setProfile={setCurrentProfile}
         openNairaChat={() => setIsNairaOpen(true)}
+        openAuthModal={() => setIsAuthModalOpen(true)}
       />
 
       {/* Main Content Area */}
